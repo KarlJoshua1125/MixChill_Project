@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vbg"
+
+    tools:context=".ViewArtist">
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Artists"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#F1EFEF"
+        android:textSize="48sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRating"
+        android:gravity="center_horizontal"
+        android:text="Tap on an Artist to add and view tracks"
+        android:textAlignment="center"
+        android:textColor="#F3F3F3"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/listViewArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="1dp"
+        android:paddingTop="15dp">
+
+    </ListView>
+
+
+</RelativeLayout>

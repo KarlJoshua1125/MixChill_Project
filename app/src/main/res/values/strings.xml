@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>RNB</item>
+        <item>Jazz</item>
+    </array>
+</resources>
